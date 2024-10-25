@@ -1,0 +1,16 @@
+4b1w-solver:
+    container_name: 4b1w-solver
+    restart: always
+    build:
+      context: .
+      dockerfile: Dockerfile
+    networks:
+      - traefik_web
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.4b1w-solver.rule=Host(`4bilder1wort.jannik.club`)"
+      - "traefik.http.services.4b1w-solver.loadbalancer.server.port=3000"
+
+networks:
+  traefik_web:
+    external: true
