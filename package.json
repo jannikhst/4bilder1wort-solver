@@ -4,10 +4,10 @@
   "description": "Paste your 'Ask your friends' link and get the puzzle solved",
   "main": "app.ts",
   "scripts": {
-    "start": "ts-node src/app.ts",
+    "start": "ts-node app.ts",
     "production": "node build/index.js",
-    "build": "npx ncc build src/app.ts -o build",
-    "build-mini": "npx ncc build src/app.ts -o build --minify"
+    "build": "npx ncc build app.ts -o build",
+    "build-mini": "npx ncc build app.ts -o build --minify"
   },
   "author": "Jannik Hurst",
   "license": "ISC",
