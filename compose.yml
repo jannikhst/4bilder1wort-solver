@@ -1,4 +1,5 @@
-4b1w-solver:
+services:
+  4b1w-solver:
     container_name: 4b1w-solver
     restart: always
     build:
