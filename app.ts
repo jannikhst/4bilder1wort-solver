@@ -82,6 +82,18 @@ app.get('/', (req, res) => {
                     border-radius: 5px;
                     display: none;
                 }
+                .footer {
+                    margin-top: 20px;
+                    font-size: 0.9em;
+                    color: #555;
+                }
+                .footer a {
+                    color: #007BFF;
+                    text-decoration: none;
+                }
+                .footer a:hover {
+                    text-decoration: underline;
+                }
             </style>
         </head>
         <body>
@@ -90,6 +102,9 @@ app.get('/', (req, res) => {
                 <input type="text" id="linkInput" placeholder="Paste your 'Ask a friend' link here" />
                 <button onclick="sendLink()">Solve</button>
                 <div id="result" class="result"></div>
+                <div class="footer">
+                    <p>Check out the project on <a href="https://github.com/jannikhst/4bilder1wort-solver" target="_blank">GitHub</a>.</p>
+                </div>
             </div>
 
             <script>
