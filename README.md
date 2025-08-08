@@ -1,4 +1,7 @@
 # 4 Bilder 1 Wort Solver
+![Solver Demo](https://raw.githubusercontent.com/jannikhst/4bilder1wort-solver/main/screenshot-2025-08-08-000274.gif)
+
+
 
 A small side project to solve *4 Bilder 1 Wort* "Ask a Friend" links. If you’re not familiar, *4 Bilder 1 Wort* (4 Pics 1 Word) is a popular word puzzle game where players guess a word based on four pictures. When players get stuck, they can share a link asking friends for help. Try the solver [here](https://4bilder1wort.jannik.club).
 
